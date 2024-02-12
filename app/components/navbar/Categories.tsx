@@ -13,9 +13,8 @@ import {
   GiWindmill,
 } from "react-icons/gi";
 import { MdOutlineVilla } from "react-icons/md";
-import { FaSkiing } from "react-icons/fa";
-import { BsSnow } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io5";
+import { BsSnow } from "react-icons/bs";
 
 import Container from "../Container";
 import CategoryBox from "../CategoryBox";
@@ -57,9 +56,9 @@ export const categories = [
     description: "Esta priopiedad está cerca de una lago!",
   },
   {
-    label: "Esquí",
-    icon: FaSkiing,
-    description: "Esta priopiedad tiene actividades de esquí",
+    label: "Nieve",
+    icon: BsSnow,
+    description: "Esta priopiedad esta cubierta de nieve!",
   },
   {
     label: "Castillos",
@@ -70,11 +69,6 @@ export const categories = [
     label: "Camping",
     icon: GiForestCamp,
     description: "Esta priopiedad tiene actividades de camping!",
-  },
-  {
-    label: "Ártico",
-    icon: BsSnow,
-    description: "Esta priopiedad está en el ártico!",
   },
   {
     label: "Cueva",
