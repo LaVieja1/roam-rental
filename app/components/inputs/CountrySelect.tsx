@@ -23,7 +23,7 @@ const CountrySelect = ({ value, onChange }: CountrySelectProps) => {
   return (
     <div>
       <Select
-        placeholder="Anywhere"
+        placeholder="En cualquier lugar"
         isClearable
         options={getAll()}
         value={value}
