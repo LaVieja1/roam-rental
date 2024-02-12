@@ -24,12 +24,12 @@ export const categories = [
   {
     label: "Playa",
     icon: TbBeach,
-    description: "Esta priopiedad esta cerca de la playa!",
+    description: "Esta priopiedad está cerca de la playa!",
   },
   {
-    label: "Molinos",
+    label: "Campo",
     icon: GiWindmill,
-    description: "Esta priopiedad tiene molinos de viento!",
+    description: "Esta priopiedad está un campo!",
   },
   {
     label: "Moderno",
@@ -37,9 +37,9 @@ export const categories = [
     description: "Esta priopiedad es moderna!",
   },
   {
-    label: "Campo",
+    label: "Montaña",
     icon: TbMountain,
-    description: "Esta priopiedad es en el campo!",
+    description: "Esta priopiedad está en la montaña",
   },
   {
     label: "Piletas",
@@ -49,47 +49,47 @@ export const categories = [
   {
     label: "Islas",
     icon: GiIsland,
-    description: "Esta priopiedad esta en una isla!",
+    description: "Esta priopiedad está en una isla!",
   },
   {
     label: "Lago",
     icon: GiBoatFishing,
-    description: "Esta priopiedad esta cerca de una lago!",
+    description: "Esta priopiedad está cerca de una lago!",
   },
   {
-    label: "Esquiar",
+    label: "Esquí",
     icon: FaSkiing,
     description: "Esta priopiedad tiene actividades de esquí",
   },
   {
     label: "Castillos",
     icon: GiCastle,
-    description: "Esta priopiedad esta en un castillo!",
+    description: "Esta priopiedad está en un castillo!",
   },
   {
-    label: "Acampar",
+    label: "Camping",
     icon: GiForestCamp,
-    description: "Esta priopiedad tiene actividades de acampar!",
+    description: "Esta priopiedad tiene actividades de camping!",
   },
   {
     label: "Ártico",
     icon: BsSnow,
-    description: "Esta priopiedad esta en el ártico!",
+    description: "Esta priopiedad está en el ártico!",
   },
   {
     label: "Cueva",
     icon: GiCaveEntrance,
-    description: "Esta priopiedad esta en una cueva!",
+    description: "Esta priopiedad está en una cueva!",
   },
   {
     label: "Desierto",
     icon: GiCactus,
-    description: "Esta priopiedad esta en un desierto!",
+    description: "Esta priopiedad está en un desierto!",
   },
   {
     label: "Graneros",
     icon: GiBarn,
-    description: "Esta priopiedad esta en un granero!",
+    description: "Esta priopiedad está en un granero!",
   },
   {
     label: "Lujoso",
