@@ -9,9 +9,9 @@ body,
 }
 
 ::-webkit-scrollbar {
-  @apply h-2.5 w-2;
+  @apply h-2.5 w-1.5;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-[#777] rounded-md;
+  @apply bg-[#888] rounded-md;
 }
