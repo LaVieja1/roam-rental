@@ -50,6 +50,8 @@ const ListingClient = ({
 
       dates = [...dates, ...range];
     });
+
+    return dates;
   }, [reservations]);
 
   const [isLoading, setIsLoading] = useState(false);
