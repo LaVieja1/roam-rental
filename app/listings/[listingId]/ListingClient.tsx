@@ -74,8 +74,7 @@ const ListingClient = ({
       .then(() => {
         toast.success("Reservado");
         setDateRange(initialDateRange);
-        // Redirect to /trips
-        router.refresh();
+        router.push("/trips");
       })
       .catch(() => {
         toast.error("No se pudo reservar");
