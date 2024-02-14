@@ -3,6 +3,7 @@
 import { useCallback, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { signOut } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 import { SafeUser } from "@/app/types";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
@@ -17,6 +18,7 @@ interface UserMenuProps {
 }
 
 const UserMenu = ({ currentUser }: UserMenuProps) => {
+  const router = useRouter();
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();
   const rentModal = useRentModal();
@@ -60,7 +62,10 @@ const UserMenu = ({ currentUser }: UserMenuProps) => {
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
-                <MenuItem label="Mis viajes" onClick={() => {}} />
+                <MenuItem
+                  label="Mis viajes"
+                  onClick={() => router.push("/trips")}
+                />
                 <MenuItem label="Mis favoritos" onClick={() => {}} />
                 <MenuItem label="Mis reservaciones" onClick={() => {}} />
                 <MenuItem label="Mis propiedades" onClick={() => {}} />
