@@ -63,7 +63,7 @@ const ListingInfo = ({
               font-light
               text-neutral-500"
         >
-          <div>{guestCount} personas</div>
+          <div>{guestCount} invitados</div>
           <div>{roomCount} habitaciones</div>
           <div>{bathroomCount} baños</div>
         </div>
