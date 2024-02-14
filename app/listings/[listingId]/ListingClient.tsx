@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 
 import useLoginModal from "@/app/hooks/useLoginModal";
-import { SafeListing, SafeUser, safeReservation } from "@/app/types";
+import { SafeListing, SafeUser, SafeReservation } from "@/app/types";
 
 import { categories } from "@/app/components/navbar/Categories";
 import Container from "@/app/components/Container";
@@ -23,7 +23,7 @@ const initialDateRange = {
 };
 
 interface ListingClientProps {
-  reservations?: safeReservation[];
+  reservations?: SafeReservation[];
   listing: SafeListing & {
     user: SafeUser;
   };
